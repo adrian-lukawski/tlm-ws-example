@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reading elemetry over WebSocket example</title>
+</head>
+<body>
+
+
+<table border="1">
+    <tr><td>Device UTC time:</td><td id="deviceUtcTime"></td></tr>
+    <tr><td>Battery level:</td><td id="batteryLevel"></td></tr>
+    <tr><td>Temperature:</td><td id="temperature"></td></tr>
+    <tr><td>Light level:</td><td id="lightLevel"></td></tr>
+    <tr><td>x:</td><td id="x"></td></tr>
+    <tr><td>y:</td><td id="y"></td></tr>
+    <tr><td>z:</td><td id="z"></td></tr>
+    <tr><td>Last double tap:</td><td id="lastDoubleTap"></td></tr>
+    <tr><td>Last threshold:</td><td id="lastThreshold"></td></tr>
+    <tr><td>External power source:</td><td id="externalPower"></td></tr>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
